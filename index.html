@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>POPULATION</title>
+  <!-- Latest compiled and minified CSS -->
+ <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"> -->
+ <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <script src ="js/main.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <h1>NEPAL'S POPULATION : <span id="total_population"></span></h1>
+    <div class="row">
+      <div class="col-sm-5">
+        <input type="text" name="" id="input" class="form-control" value="" required="required" onkeyup="inputKeyUp(event)">
+        <br>
+        <button type="button" class="btn btn-primary" onclick="dataSearch()">Search</button>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <div id="districts">
+        </div>
+      </div>
+      <div class="col-sm-offset-1 col-sm-5">
+      <aside id="data"></aside>
+     </div>
+   </div>
+</div>
+<!-- Latest compiled and minified JS -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+</body>
+</html>
